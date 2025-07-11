@@ -27,13 +27,13 @@ export default function Game() {
         style={{
           padding: '12px 36px',
           borderRadius: 4,
-          background: '#0d6efd',
+          background: '#198754', // vert foncé Bootstrap
           color: '#fff',
           textDecoration: 'none',
           fontWeight: 600,
           fontSize: 18,
           border: 'none',
-          boxShadow: '0 2px 4px rgba(13,110,253,0.08)',
+          boxShadow: '0 2px 4px rgba(25,135,84,0.15)',
           letterSpacing: 1,
           transition: 'background 0.15s, color 0.15s',
           cursor: 'pointer'
