@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
+import Game from './pages/Game';
 import './App.css';
 
 import React, { useState } from 'react';
@@ -65,11 +66,13 @@ function App() {
         }}
       >
         <BootstrapNavLink to="/">Accueil</BootstrapNavLink>
+        <BootstrapNavLink to="/game">Game</BootstrapNavLink>
         <BootstrapNavLink to="/about">À propos</BootstrapNavLink>
       </nav>
       <div style={{ paddingTop: 90 }}>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/game" element={<Game />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
