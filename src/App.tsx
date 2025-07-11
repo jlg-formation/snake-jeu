@@ -4,6 +4,7 @@ import About from './pages/About';
 import Contacts from './pages/Contacts';
 import Game from './pages/Game';
 import Play from './pages/Play';
+import Git from './pages/Git';
 import './App.css';
 import React, { useState } from 'react';
 
@@ -71,6 +72,7 @@ function App() {
         <BootstrapNavLink to="/play">Jouer</BootstrapNavLink>
         <BootstrapNavLink to="/about">À propos</BootstrapNavLink>
         <BootstrapNavLink to="/contacts">Contacts</BootstrapNavLink>
+        <BootstrapNavLink to="/git">Git</BootstrapNavLink>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -78,6 +80,7 @@ function App() {
         <Route path="/play" element={<Play />} />
         <Route path="/about" element={<About />} />
         <Route path="/contacts" element={<Contacts />} />
+        <Route path="/git" element={<Git />} />
       </Routes>
 </Router>
   );
