@@ -69,7 +69,6 @@ function App() {
       >
         <BootstrapNavLink to="/">Accueil</BootstrapNavLink>
         <BootstrapNavLink to="/game">Game</BootstrapNavLink>
-        <BootstrapNavLink to="/play">Jouer</BootstrapNavLink>
         <BootstrapNavLink to="/about">À propos</BootstrapNavLink>
         <BootstrapNavLink to="/contacts">Contacts</BootstrapNavLink>
         <BootstrapNavLink to="/git">Git</BootstrapNavLink>
