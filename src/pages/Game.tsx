@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-const logoUrl = "https://cdn-icons-png.flaticon.com/512/6945/6945949.png"; // Remplace par ton propre logo si besoin
+const logoUrl = "https://cdn-icons-png.flaticon.com/512/6945/6945949.png";
 
 export default function Game() {
   return (
