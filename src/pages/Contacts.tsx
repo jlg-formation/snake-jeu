@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const contacts = [
   { name: 'Alice Dupont', phone: '06 12 34 56 78' },

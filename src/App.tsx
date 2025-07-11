@@ -69,13 +69,11 @@ function App() {
         <BootstrapNavLink to="/about">À propos</BootstrapNavLink>
         <BootstrapNavLink to="/contacts">Contacts</BootstrapNavLink>
       </nav>
-      <div style={{ paddingTop: 90 }}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contacts" element={<Contacts />} />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contacts" element={<Contacts />} />
       </Routes>
-      </div>
     </Router>
   );
 }
