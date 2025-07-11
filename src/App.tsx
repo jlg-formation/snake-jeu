@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contacts from './pages/Contacts';
 import Game from './pages/Game';
+import Play from './pages/Play';
 import './App.css';
 import React, { useState } from 'react';
 
@@ -67,12 +68,14 @@ function App() {
       >
         <BootstrapNavLink to="/">Accueil</BootstrapNavLink>
         <BootstrapNavLink to="/game">Game</BootstrapNavLink>
+        <BootstrapNavLink to="/play">Jouer</BootstrapNavLink>
         <BootstrapNavLink to="/about">À propos</BootstrapNavLink>
         <BootstrapNavLink to="/contacts">Contacts</BootstrapNavLink>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/game" element={<Game />} />
+        <Route path="/play" element={<Play />} />
         <Route path="/about" element={<About />} />
         <Route path="/contacts" element={<Contacts />} />
       </Routes>
