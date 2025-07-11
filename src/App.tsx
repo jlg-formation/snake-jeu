@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
+import Contacts from './pages/Contacts';
 import './App.css';
 
 import React, { useState } from 'react';
@@ -66,12 +67,14 @@ function App() {
       >
         <BootstrapNavLink to="/">Accueil</BootstrapNavLink>
         <BootstrapNavLink to="/about">À propos</BootstrapNavLink>
+        <BootstrapNavLink to="/contacts">Contacts</BootstrapNavLink>
       </nav>
       <div style={{ paddingTop: 90 }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-        </Routes>
+          <Route path="/contacts" element={<Contacts />} />
+      </Routes>
       </div>
     </Router>
   );
